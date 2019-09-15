@@ -1,0 +1,11 @@
+//#-----------------
+//input data
+
+int a = read("Enter first number");
+int b = read("Enter a second number");
+
+//#-----------------
+//sum data
+
+//#-----------------
+//output data
