@@ -1,32 +1,50 @@
-def compare (numb1,numb2):
-    while True:
-        try:
-           # numb1 = str(input())
-            #numb2 = str(input())
-            if numb1 or numb2 == []:
-                ln1 = len(numb1)
-                ln2 = len(numb2)
+def compare (numb1, numb2):
+            numb1t=str(numb1)
+            numb2t = str(numb2)
+            if numb1t or numb2t == []:
+                ln1 = len(numb1t)
+                ln2 = len(numb2t)
                 comparison=str()
             if ln1<ln2:
-                    numb1 =   numb1+(ln2 - ln1) * "0"
+                    numb1t =(ln2 - ln1) * "0"+ numb1t
             elif ln2< ln1:
-                    numb2 =   numb2+(ln1 - ln2) * "0"
-        #print(numb1, numb2)
-            for index in range(0, len(numb2)):
-            #print(index)
-                if numb1[index] == numb2[index]:
+                    numb2t = (ln1 - ln2) * "0" +numb2t
+            for index in range(0, len(numb2t)):
+                if numb1t[index] == numb2t[index]:
                     comparison= comparison+"="
                 else:
                     comparison= comparison+"*"
-            print(comparison)
-        except ValueError:
-            print("Введіть число наново")
-        except SyntaxError:
-            print("Введіть число наново")
-        except IndexError:
-            print("Введіть число наново")
-        except TypeError:
-            print("Введіть число наново")
-i=input()
-b=input()
-compare(i,b)
+            return(comparison)
+
+while True:
+    try:
+
+        numb1=int(input("Введіть перше двійкове число"))
+        numb2 = int(input("Введіть друге двійкове число"))
+        num1=str(numb1)
+        num2=str(numb2)
+        a=compare(numb1,numb2)
+        if ("1"and "0") in (num1 and num2):
+            print(a)
+            print("відстань" , a.count("*"))
+        else:
+            ch = input("Введено невірні символи. Хочете продовжити гру - натисніть 1")
+            if ch == "1":
+                continue
+            else:
+                break
+        ch = input("Хочете продовжити гру - натисніть 1")
+        if ch == "1":
+            continue
+        else:
+            break
+    except ValueError:
+        print("Введіть число наново")
+    except SyntaxError:
+        print("Введіть число наново")
+    except IndexError:
+        print("Введіть число наново")
+    except TypeError:
+        print("Введіть число наново")
+
+
