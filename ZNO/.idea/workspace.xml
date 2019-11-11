@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82bd6f9a-47dc-4f90-9940-3cb654156cd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5/ефіл1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5/ефіл2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled3/3.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled3/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled4/olya.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Лаба3/завдання.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../РГРОлефір/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../РГРОлефір/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../РГРОлефір/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../РГРОлефір/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ьалась/1.1 with validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ьалась/1.2 with validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ьалась/1.3 with validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ьалась/завд1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled3/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/Зав1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled3/Зав1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/завд2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled3/завд2.py" afterDir="false" />
-    </list>
+    <list default="true" id="82bd6f9a-47dc-4f90-9940-3cb654156cd7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +113,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1037" height="830" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38100103" />
