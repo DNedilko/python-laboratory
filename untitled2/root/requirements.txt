@@ -1,7 +1,0 @@
-Click ==7.0
-Flask == 1.0.2
-itsdangerouse==1.1.0
-Jinja==2.10
-MarkupSafe==1.1.1
-Workzeng==0.15.1
-qunicorn==19.9.0
